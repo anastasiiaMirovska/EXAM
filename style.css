@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #FAF0E4;
+}
+h1, h2{
+    width:90vw;
+    text-align: center;
+    color: #FF8F8F;
+}
+.info-block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:40vw;
+    min-height: 20vh;
+    max-height: fit-content;
+    border: 1px solid #FFDEDE;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(176, 176, 176, 0.45);
+    background-color: #9BCDD2;
+    margin: 20px 0;
+    color: #FAF0E4;
+    font-size: 20px;
+}
+
+.info-block:hover{
+    transform: scale(1.01);
+}
+
+button{
+    min-width:120px;
+    max-width: fit-content;
+    height:35px;
+    margin:20px 0;
+    padding:5px;
+    background-color: #FF8F8F;
+    color:#FAF0E4;
+    border: 1px solid #FFDEDE;
+    border-radius:5px;
+    font-size:16px;
+}
+button:hover{
+    transform: scale(1.08);
+    transition: 0.2s ease;
+}
+.more-info{
+    width:90vw;
+}
+.post-title{
+    width:18vw;
+    height: fit-content;
+}
+.post-title span{
+    margin: 15px;
+}
+.post-title h3{
+    margin: 0;
+}
+
+.post-comment{
+    width:22vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.post-comment>span{
+    margin: 18px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
